@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBujU19E-bxPKeZdiXtnt9vGGjQy0gaHGc&libraries=places"></script>
+  <link href="https://fonts.googleapis.com/css?family=Gruppo|Montserrat:400,600|Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <div id="main">
+    <div id="header" class="center-content clear-fix">
+    </div>
+    <div style="clear: both;"></div>
+    <h4 class="margin">Hanc in motu dolor sit amet, consectetur adipiscing elit. Hanc ergo intuens debet institutum illud quasi signum absolvere. Erit enim mecum, si tecum erit. Duo Reges: constructio interrete. Summae mihi videtur inscitiae. Hoc Hieronymus summum bonum esse dixit. Bonum incolumis acies: misera caecitas.</h4>
+    <div id="workExperience" class="gray">
+      <h2>Clients & Projects</h2>
+    </div>
+    <div>
+      <h2>Our Team</h2>
+      <h4>Hoc mihi cum tuo fratre convenit. Ut enim consuetudo loquitur, id solum dicitur honestum, quod est populari fama gloriosum. Igitur neque stultorum quisquam beatus neque sapientium non beatus. Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere.</h4>
+      <img class="imageCenter" src="images/staff.jpg" alt="">
+    </div>
+    <div class="gray">
+      <h2>Partners</h2>
+      <h4>Qua tu etiam inprudens utebare non numquam. Dolor ergo, id est summum malum, metuetur semper, etiamsi non aderit; Nihil acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat.</h4>
+      <img class="imageCenter" src="images/clients.jpg" alt="">
+    </div>
+    <div id="mapDiv">
+      <h2>Our Offices</h2>
+    </div>
+    <div id="lets-connect">
+      <h2 id="connect">Let's Connect</h2>
+        <ul id="footerContacts" class="flex-box">
+      </ul>
+    </div>
+  </div>
+  <script src="js/jQuery.js"></script>
+  <script src="js/helper2.js"></script>
+  <script src="js/resumeBuilder2.js"></script>
+  <script>
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('topContacts').style.display = 'none';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      document.getElementById('header').style.display = 'none';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.display = 'none';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('lets-connect').style.display = 'none';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
