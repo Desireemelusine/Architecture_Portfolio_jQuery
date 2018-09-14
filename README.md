@@ -18,3 +18,4 @@ The page is fully responsive and works on mobile, tablet and desktop browsers
 * @media screen and (max-width: 1024px)
 
 Click on the link on the description to visit the website
+####Attention: Due to the fact we are working with API. Some parts of the page may not upload correctly. "This request has been blocked; the content must be served over HTTPS." If that is the case is recommended to download the project.
